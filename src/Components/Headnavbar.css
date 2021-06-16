@@ -1,0 +1,17 @@
+.login{
+    cursor: pointer;
+    
+}
+.navbar{    
+    background-color: black;
+    
+    position:fixed;
+    width: 100%;
+    z-index:99999;
+    top:0%
+}
+
+.buttonnavbar{
+    justify-content: right;
+}
+
