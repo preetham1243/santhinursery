@@ -12,7 +12,8 @@ import InfoIcon from '@material-ui/icons/Info';
 import "./Footer.css"
 import {Nav} from 'react-bootstrap';
 import Logo from "./Logo.jpeg";
-import Googlemap from "./Googlemap.jpeg"
+import Googlemap from "./Googlemap.jpeg";
+import About from "./About";
 function Footer() {
 
 const Googlemapp = () => {
@@ -72,7 +73,7 @@ const Googlemapp = () => {
                            <a href="/Gallery"><PhotoSharpIcon></PhotoSharpIcon> Gallery</a>
                         </li>
                         <li style={{}}>
-                           <a href="/Gallery"><InfoIcon></InfoIcon>  AboutUs</a>
+                           <a href="/About"><InfoIcon></InfoIcon>  AboutUs</a>
                         </li>
                         
                    </ul>
